@@ -12,7 +12,10 @@ int main()
 		if (mass[i]%3==0)
 			printf("Fizz");
 		else
-			printf("%d",mass[i]);
+			if (mass[i]%5==0)
+				printf("Buzz");
+			else
+				printf("%d",mass[i]);
 		printf(" ");
 	}
 
